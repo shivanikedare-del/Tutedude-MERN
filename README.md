@@ -1,5 +1,4 @@
 # Tutedude-MERN
 
-Shivani's repo
+This is Shivani's repository created to learn MERN stack.
 
-some description
