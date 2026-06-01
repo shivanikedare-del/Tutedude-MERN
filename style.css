@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255, 167, 90);
+    font-size: 12px;
+}
+
+.head{
+    color: darkblue;
+}
+
+#bglime{
+    background-color: rgb(110, 248, 110);
+}
+
+p{
+    font-size: 16px;
+    color: white;
+}
+
+#para{
+    font-size: 12px;
+    color: green;
+}
+
+section > a{
+    font-size: 14px;
+    font-weight: 600;
+}
