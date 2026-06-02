@@ -1,36 +1,50 @@
-body{
+body {
     background-color: rgb(255, 167, 90);
     font-size: 12px;
 }
 
-.head{
+.head {
     color: darkblue;
 }
 
-#bglime{
+#bglime {
     background-color: rgb(110, 248, 110);
 }
 
-p{
+p {
     font-size: 16px;
     color: white;
 }
 
-#para{
+#para {
     font-size: 12px;
     color: green;
 }
 
-section > a{
+section>a {
     font-size: 14px;
     font-weight: 600;
 }
 
-ol li:nth-child(2){
+ol li:nth-child(2) {
     color: blue;
 }
 
-ol li:nth-child(3){
+ol li:nth-child(3) {
     color: red
 }
 
+p>a {
+    color: black;
+    font-size: 18px;
+}
+
+a:link {
+    color: blue;
+    background-color: yellow;
+}
+
+a:visited {
+    color: yellow;
+    background-color: blue;
+}
