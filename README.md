@@ -1,10 +1,17 @@
 # Tutedude-MERN
-
 This is Shivani's repository created to learn MERN stack.
 
-# Task 1
+### How to run:
+- To view my active task please go to https://tutedudetask.netlify.app/.
+- This site views my current submission for Tutedude MERN stack course.
+##
+
+## Task 1
 This task comprised of a basic html page including only title. 
 In this task I learned how to push and pull code from the repository.
 
-# Task 2
+## Task 2
 Hosted an HTML web page for online laundry service - Laundry Wallah.
+
+## Task 3
+In this task we start with Cascading Style Sheets, and its basic components.
