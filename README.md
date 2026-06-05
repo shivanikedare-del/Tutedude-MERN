@@ -15,3 +15,10 @@ Hosted an HTML web page for online laundry service - Laundry Wallah.
 
 ## Task 3
 In this task we start with Cascading Style Sheets, and its basic components.
+
+## Task 4
+Applied units and box model.
+
+## Task 5
+Here I have designed a home page using CSS.
+
