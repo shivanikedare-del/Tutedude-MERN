@@ -76,46 +76,51 @@ button{
 
 /*  **************TASK 5***************** */
 
-*{
+* {
     box-sizing: border-box;
-    display: inline-block;
+    display: inline;
     margin: 12px 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.logo{
+.logo {
     /* margin: 12px 50px; */
     width: 100px;
 }
 
-nav{
+nav {
     box-sizing: border-box;
     align-items: center;
 }
 
-nav>li{
+li {
     display: inline;
     position: sticky;
     margin: 0px 30px;
     color: rgb(137, 139, 175);
 }
 
-.username{
+ul {
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.username {
     background-color: rgb(226, 241, 255);
     border: none;
     border-radius: 8px;
-    padding:16px;
+    padding: 16px;
     color: rgb(0, 152, 228);
     font-weight: 600;
     position: absolute;
     right: 100px;
 }
 
-.CTA{
+.CTA {
     background-color: rgb(0, 152, 228);
     border: none;
     border-radius: 16px;
-    padding:20px;
+    padding: 20px;
     color: white;
     font-weight: 600;
     font-size: 12px;
@@ -125,14 +130,16 @@ nav>li{
     display: inline-block;
 }
 
-p{
+p {
+    display: block;
     color: rgb(137, 139, 175);
     margin-left: 80px;
     text-align: left;
     width: 40%;
 }
 
-h1{
+h1 {
+    display: block;
     color: rgb(53, 61, 69);
     font-size: 60px;
     margin-left: 80px;
@@ -140,14 +147,14 @@ h1{
     width: 40%;
 }
 
-h1>a{
+h1>a {
     color: rgb(0, 152, 228);
     font-size: 60px;
     text-align: left;
     margin: 0px;
 }
 
-.hero{
+.hero {
     width: 400px;
     float: right;
 }
