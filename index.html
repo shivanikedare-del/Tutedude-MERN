@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <main>
+    <main class="flex-main">
         <!-- ******************TASK 2*****************
         <h1>Welcome to Laundry Wallah</h1>
         <p>Welcome to Laundry Wallah, your one-stop solution for all your laundry needs. Our dedicated team assures
@@ -138,20 +138,42 @@
 
         <!-- ******************TASK 6***************** -->
 
-        <div>
-            <img src="https://png.pngtree.com/png-vector/20221104/ourmid/pngtree-happy-woman-doing-laundry-png-image_6413898.png">
-        </div>
-        <div>
-            <form action="submit">
-                <label class="input-field" aria-placeholder="Enter your email id">Email: </label><input class="input-field" type="email">
-                <label class="input-field" placeholder="Enter your password">Password: </label><input class="input-field" type="password">
-                <input class="submit-btn" type="submit">
-                <a class="forgot-password" href="forgot-password.html">Forgot Password?</a>
+        <section>
+            <img
+                src="https://png.pngtree.com/png-vector/20221104/ourmid/pngtree-happy-woman-doing-laundry-png-image_6413898.png">
+        </section>
 
+        <section class="flex-form">
+
+            <section class="welcome-text">
+                <h1>Hello Again!</h1>
+                <p>Welcome back! We missed you!</p>
+            </section>
+
+            <br>
+            <br>
+
+            <form action="submit">
+                <div>
+                    <label>Email: </label><input class="input-field" placeholder="Enter your email id" type="email">
+                    <div>
+                        <label>Password: </label><input class="input-field" placeholder="Enter your password"
+                            type="password">
+                        <a class="forgot-password" href="forgot-password.html">Forgot Password?</a>
+                    </div>
+
+                    <br>
+                    
+                </div>
+                <div>
+                    <input class="submit-btn" type="submit">
+                </div>
             </form>
 
+            <br>
+
             <p>Not a member? <a href="register.html">Register Now</a></p>
-        </div>
+        </section>
     </main>
 </body>
 
