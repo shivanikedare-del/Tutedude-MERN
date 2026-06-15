@@ -22,3 +22,5 @@ Applied units and box model.
 ## Task 5
 Here I have designed a home page using CSS.
 
+## Task 6
+A login screen created using flexbox property.
