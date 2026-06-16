@@ -334,6 +334,10 @@ ul {
 
 @media (min-width: 550px) {
 
+    nav{
+        display: inline-block;
+    }
+
     li {
         margin: 0px 12px;
     }
