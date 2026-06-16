@@ -161,7 +161,7 @@ h1>a {
     float: right;
 }  */
 
-/* **************TASK 6***************** */
+/* **************TASK 6*****************
 
 *{
     margin: 0;
@@ -195,7 +195,6 @@ label{
 }
 
 .input-field {
-    /* width: 100%; */
     padding: 12px;
     border: 1px solid rgb(226, 241, 255);
     border-radius: 8px;
@@ -232,4 +231,251 @@ p{
 
 .forgot-password{
     font-size: 14px;
+} */
+
+/* **************TASK 7***************** */
+
+* {
+    box-sizing: border-box;
+    margin: 12px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    box-sizing: border-box;
+}
+
+li {
+    display: inline;
+    margin: 0px 30px;
+    color: rgb(137, 139, 175);
+}
+
+ul {
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+@media (min-width: 800px) {
+
+    nav {
+        margin-inline: 18vw;
+    }
+
+    .logo {
+        width: 5vw;
+        height: fit-content;
+    }
+
+    .username {
+        background-color: rgb(226, 241, 255);
+        border: none;
+        border-radius: 8px;
+        padding: 16px;
+        color: rgb(0, 152, 228);
+        font-weight: 600;
+    }
+
+    .CTA {
+        background-color: rgb(0, 152, 228);
+        border: none;
+        border-radius: 16px;
+        padding: 20px;
+        color: white;
+        font-weight: 600;
+        font-size: 13px;
+        width: 70%;
+    }
+
+    p {
+        line-height: 150%;
+        color: rgb(137, 139, 175);
+        width: 100%;
+    }
+
+    h1 {
+        line-height: 120%;
+        color: rgb(53, 61, 69);
+        font-size: 32px;
+        width: 100%;
+    }
+
+    h1>a {
+        color: rgb(0, 152, 228);
+        font-size: 32px;
+    }
+
+    .hero {
+        width: 30vw;
+        float: right;
+        height: fit-content;
+        margin: 0px 100px;
+    }
+
+    .nav-bar {
+        align-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .main-flex {
+        display: flex;
+        flex-direction: row;
+        margin: 100px;
+    }
+
+    .text-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 550px) {
+
+    li {
+        margin: 0px 12px;
+    }
+
+    .logo {
+        width: 10vw;
+        height: fit-content;
+    }
+
+    .username {
+        background-color: rgb(226, 241, 255);
+        border: none;
+        border-radius: 8px;
+        padding: 16px;
+        color: rgb(0, 152, 228);
+        font-weight: 600;
+    }
+
+    .CTA {
+        background-color: rgb(0, 152, 228);
+        border: none;
+        border-radius: 16px;
+        padding: 20px;
+        color: white;
+        font-weight: 600;
+        font-size: 13px;
+        width: 70%;
+    }
+
+    p {
+        line-height: 150%;
+        color: rgb(137, 139, 175);
+        width: 100%;
+    }
+
+    h1 {
+        line-height: 120%;
+        color: rgb(53, 61, 69);
+        font-size: 32px;
+        width: 100%;
+    }
+
+    h1>a {
+        color: rgb(0, 152, 228);
+        font-size: 32px;
+    }
+
+    .hero {
+        width: 40vw;
+        float: right;
+        height: fit-content;
+    }
+
+    .nav-bar {
+        align-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .main-flex {
+        display: flex;
+        flex-direction: row;
+        margin: 50px;
+    }
+
+    .text-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 400px) {
+
+    * {
+    margin: 4px 10px;
+}
+
+    nav{
+        display: none;
+    }
+
+    .logo {
+        width: 20vw;
+        height: fit-content;
+    }
+
+    .username {
+        background-color: rgb(226, 241, 255);
+        border: none;
+        border-radius: 8px;
+        padding: 16px;
+        color: rgb(0, 152, 228);
+        font-weight: 600;
+    }
+
+    .CTA {
+        background-color: rgb(0, 152, 228);
+        border: none;
+        border-radius: 16px;
+        padding: 20px;
+        color: white;
+        font-weight: 600;
+        font-size: 13px;
+        width: 70%;
+    }
+
+    p {
+        line-height: 150%;
+        color: rgb(137, 139, 175);
+        width: 100%;
+    }
+
+    h1 {
+        line-height: 120%;
+        color: rgb(53, 61, 69);
+        font-size: 32px;
+        width: 100%;
+    }
+
+    h1>a {
+        color: rgb(0, 152, 228);
+        font-size: 32px;
+    }
+
+    .hero {
+        width: 60vw;
+        float: right;
+        height: fit-content;
+    }
+
+    .nav-bar {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .main-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-flex {
+        display: flex;
+        flex-direction: column;
+    }
 }
