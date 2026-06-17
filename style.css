@@ -233,7 +233,7 @@ p{
     font-size: 14px;
 } */
 
-/* **************TASK 7***************** */
+/* *************TASK 7-8-9**************** */
 
 * {
     box-sizing: border-box;
@@ -255,6 +255,11 @@ ul {
     box-sizing: border-box;
     align-items: center;
 }
+
+.CTA:hover{
+        transform: scale(1.2) rotate(-10deg);
+        transition: 0.5s ease;
+    }
 
 @media (min-width: 400px) {
 
@@ -538,4 +543,7 @@ ul {
         display: flex;
         flex-direction: column;
     }
-}
+
+} 
+
+

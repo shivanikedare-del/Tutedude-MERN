@@ -30,3 +30,6 @@ Responsive layout for online laundry service homepage. Here I have created respo
 
 ## Task 8
 Using CSS for click navigation menu.
+
+## Task 9
+Adding animation to CTA button using transform property.
