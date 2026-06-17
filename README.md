@@ -28,3 +28,5 @@ A login screen created using flexbox property.
 ## Task 7
 Responsive layout for online laundry service homepage. Here I have created responsive screen which is compatible to laptop, tablet as well as mobile devices.
 
+## Task 8
+Using CSS for click navigation menu.

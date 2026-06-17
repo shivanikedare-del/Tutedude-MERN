@@ -262,12 +262,7 @@ ul {
         margin: 4px 2px;
     }
 
-    #menu-toggle {
-        display: none;
-    }
-
     .menu-btn {
-        position: fixed;
         top: 20px;
         right: 40px;
         font-size: 30px;
@@ -277,7 +272,6 @@ ul {
 
     .mobile-nav {
         display: flex;
-        /* justify-content: center; */
         flex-direction: column;
         row-gap: 20px;
         align-items: flex-start;
@@ -286,7 +280,7 @@ ul {
         top: 0;
 
 
-        position: fixed;
+        position: absolute;
         right: -300px;
         width: 65%;
         height: 100vh;
@@ -294,21 +288,15 @@ ul {
         z-index: 1000;
     }
 
-    .overlay {
-        position: fixed;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.5);
-        opacity: 0;
-        visibility: hidden;
-        transition: 0.3s;
-        z-index: 999;
-    }
-
-    #menu-toggle:checked~.mobile-nav {
+    .menu-btn:focus+.mobile-nav {
         right: 5px;
     }
 
-    #menu-toggle:checked~.overlay {
+    .nav-bar:focus-within .mobile-nav {
+        right: 5px;
+    }
+
+    .nav-bar:focus-within .overlay {
         opacity: 1;
         visibility: visible;
     }
@@ -394,7 +382,7 @@ ul {
         display: none;
     }
 
-    .menu-btn{
+    .menu-btn {
         display: none;
     }
 
