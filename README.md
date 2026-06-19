@@ -33,3 +33,6 @@ Using CSS for click navigation menu.
 
 ## Task 9
 Adding animation to CTA button using transform property.
+
+## Task 10
+Introduction to animations and transform effects.
