@@ -233,7 +233,7 @@ p{
     font-size: 14px;
 } */
 
-/* *************TASK 7-8-9**************** */
+/* *************TASK 7-9**************** */
 
 * {
     box-sizing: border-box;
@@ -256,10 +256,10 @@ ul {
     align-items: center;
 }
 
-.CTA:hover{
-        transform: scale(1.2) rotate(-10deg);
-        transition: 0.5s ease;
-    }
+.CTA:hover {
+    transform: scale(1.2) rotate(-10deg);
+    transition: 0.5s ease;
+}
 
 @media (min-width: 400px) {
 
@@ -544,6 +544,33 @@ ul {
         flex-direction: column;
     }
 
-} 
+}
 
+/* **************TASK 10***************** */
 
+.hero:hover {
+    animation: imageHover 2s linear infinite;
+}
+
+@keyframes imageHover {
+    0%, 80%{
+        transform: translate(0,0);
+    }
+
+    /* 15% {
+        transform: translate(-10px, -10px);
+    } */
+
+    40% {
+        transform: translate(10px, -10px);
+    }
+
+    75% {
+        transform: translate(10px, 10px);
+    }
+
+    100%{
+        transform: scale(0.95,1.1);
+        animation-duration: 1s;
+    }
+}
