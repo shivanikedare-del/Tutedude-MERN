@@ -548,29 +548,24 @@ ul {
 
 /* **************TASK 10***************** */
 
-.hero:hover {
-    animation: imageHover 2s linear infinite;
+/* .hero {
+    animation: orbit 250ms linear infinite;
+} */
+
+.hero {
+    animation: circle 1.5s linear infinite;
 }
 
-@keyframes imageHover {
-    0%, 80%{
-        transform: translate(0,0);
+@keyframes circle {
+    5% {
+        transform: rotate(0deg) translateX(15px) rotate(0deg);
     }
 
-    /* 15% {
-        transform: translate(-10px, -10px);
-    } */
-
-    40% {
-        transform: translate(10px, -10px);
+    70% {
+        transform: rotate(360deg) translateX(15px) rotate(-360deg);
     }
 
-    75% {
-        transform: translate(10px, 10px);
-    }
-
-    100%{
-        transform: scale(0.95,1.1);
-        animation-duration: 1s;
+    100% {
+        transform: scale(0.7, 1.2);
     }
 }
