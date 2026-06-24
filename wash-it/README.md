@@ -36,3 +36,6 @@ Adding animation to CTA button using transform property.
 
 ## Task 10
 Introduction to animations and transform effects.
+
+## Task 11
+Here i have created an e-commerce website using all the CSS and HTML topics learned so far. 
