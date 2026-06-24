@@ -1,0 +1,273 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.material-symbols-outlined {
+    color: rgb(45, 45, 45);
+}
+
+.logo {
+    width: 30%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.margin{
+    margin: 0 10%;
+}
+
+.navBar {
+    column-gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    position: sticky;
+}
+
+.menu {
+    column-gap: 60px;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+input {
+    padding: 8px;
+    margin: 4px 0px;
+    border-radius: 8px;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+.profile {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.hero-section {
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40vw;
+    row-gap: 8px;
+}
+
+.brandimage {
+    width: 15%;
+}
+
+.product-image {
+    width: 150%;
+}
+
+.shoe-image {
+    width: 30vw;
+    height: auto;
+    background-color: rgb(241, 241, 240);
+    border-radius: 5%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: orange;
+    color: white;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-elements {
+    column-gap: 12px;
+    align-items: center;
+}
+
+.footer-icon {
+    font-size: 44px !important;
+    color: white;
+}
+
+h1>a {
+    color: orange;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.paragraph {
+    color: rgb(88, 82, 72);
+}
+
+.price {
+    color: blue;
+    background-color: rgb(240, 240, 255);
+    border-radius: 10%;
+    padding: 10px;
+    width: fit-content;
+}
+
+.price-det {
+    column-gap: 12px;
+}
+
+.disc-det {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    color: grey;
+}
+
+.discount {
+    color: rgb(45, 177, 45);
+}
+
+.shop {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(45, 45, 45);
+    border: 0;
+    border-radius: 25px;
+    padding: 15px 60px;
+    width: fit-content;
+}
+
+.num {
+    width: 10%;
+}
+
+.qty {
+    width: 10%;
+    background-color: rgb(241, 241, 240);
+    border: none;
+}
+
+.breadcrumbs {
+    font-size: 14px;
+    margin: 0% 15% 2%;
+    color: grey;
+    align-items: center;
+}
+
+.cart-button {
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    border-radius: 8px;
+    padding: 15px 60px;
+    width: fit-content;
+    border: none;
+    font-weight: 500;
+}
+
+.pay-button{
+    font-size: 16px;
+    width: 100%;
+}
+
+.more-images {
+    margin: 0% 15%;
+    column-gap: 30px;
+}
+
+.images {
+    width: 10%;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.product-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bill {
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+}
+
+.bill-price {
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.coupon-apply {
+    cursor: pointer;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border-radius: 8px;
+    padding: 15px 20px;
+    width: fit-content;
+    border: none;
+}
+
+.secure{
+    width: 20%;
+    height: fit-content;
+}
+
+.table-cart{
+    width: 55vw;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 8px 18px;
+    text-align: left;
+    border-bottom: 1px solid rgb(222, 222, 222);;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.table-cart td{
+    text-align: left;
+    padding: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.remove-btn{
+    color: rgb(255, 61, 61);
+}
+
+.checkout-left{
+    width: 50vw;
+    height: 100vw;
+    background-color: rgb(249, 252, 255);
+    padding: 2%;
+}
+
+.summary-right{
+    width: 50vw;
+    height: 100vw;
+    background-color: rgb(239, 248, 254);
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pay-details{
+    background-color: rgb(238, 239, 241);
+    border: 1px solid rgb(222, 222, 222);
+    color: rgb(195, 194, 194);
+}
