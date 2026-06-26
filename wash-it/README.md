@@ -38,4 +38,7 @@ Adding animation to CTA button using transform property.
 Introduction to animations and transform effects.
 
 ## Task 11
-Here i have created an e-commerce website using all the CSS and HTML topics learned so far. 
+Here i have created an e-commerce website using all the CSS and HTML topics learned so far.
+
+## Task 12
+We begin javascript learning from here. In this task we are calculating compound interest by hard coding the values.
