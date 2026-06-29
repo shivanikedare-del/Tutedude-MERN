@@ -42,3 +42,10 @@ Here i have created an e-commerce website using all the CSS and HTML topics lear
 
 ## Task 12
 We begin javascript learning from here. In this task we are calculating compound interest by hard coding the values.
+
+## Task 12
+We begin javascript learning from here. In this task we are calculating compound interest by hard coding the values.
+
+## Task 13
+Topics covered: If Else statement and Switch case.
+
