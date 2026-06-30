@@ -5,25 +5,44 @@ function cInterest(P, r, n, t) {
 }
 
 
-function guessNum(a, b) {
+function guessNum() {
 
-    // if (a % 2 == 0) {
-    //     console.log(a + " is even");
-    // }
-    // else {
-    //     console.log(a + " is odd");
-    // }
+    let a = 5;
+    let b = 7;
+    let c = 12;
+    let d = 39;
 
-    // if (b % 2 == 0) {
-    //     console.log(b + " is even");
-    // }
-    // else {
-    //     console.log(b + " is odd");
-    // }
+    if (a % 2 == 0) {
+        console.log("The number " + a + " is even");
+    }
+    else {
+        console.log("The number " + a + " is odd");
+    }
 
-    a % 2 == 0 ? console.log(a + " is even") : console.log(a + " is odd");
+    if (b % 2 == 0) {
+        console.log("The number " + b + " is even");
+    }
+    else {
+        console.log("The number " + b + " is odd");
+    }
 
-    b % 2 == 0 ? console.log(b + " is even") : console.log(b + " is odd");
+    if (c % 2 == 0) {
+        console.log("The number " + c + " is even");
+    }
+    else {
+        console.log("The number " + c + " is odd");
+    }
+
+    if (d % 2 == 0) {
+        console.log("The number " + d + " is even");
+    }
+    else {
+        console.log("The number " + d + " is odd");
+    }
+
+    // a % 2 == 0 ? console.log(a + " is even") : console.log(a + " is odd");
+
+    // b % 2 == 0 ? console.log(b + " is even") : console.log(b + " is odd");
 
 }
 
