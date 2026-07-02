@@ -49,3 +49,5 @@ We begin javascript learning from here. In this task we are calculating compound
 ## Task 13
 Topics covered: If Else statement and Switch case.
 
+## Task 14
+Advance math functions executed using for and while loops.
