@@ -36,21 +36,18 @@ function task16() {
         { name: "Sahil", Marks: 38, Class: "C", Address: "Guwahati, Assam" },
     ];
 
-    document.getElementById("students").innerHTML = students.map((student) => `
-        Student name: ${student.name}<br>
-        Marks: ${student.Marks}<br>
-        Class: ${student.Class}<br>
-        Address: ${student.Address}<br><br>
+    let studentCards = students.map((student) => `
+        <div class="student-card">
+            <p>Student name: ${student.name}</p>
+            <p>Marks: ${student.Marks}</p>
+            <p>Class: ${student.Class}</p>
+            <p>Address: ${student.Address}</p>
+        </div>
     `).join('');
 
-    // for (let i = 0; i < students.length; i++) {
-    //     document.getElementById("students").innerHTML += "Student name: " + students[i].name;
-    //     document.getElementById("students").innerHTML += "<br>Marks: " + students[i].Marks;
-    //     document.getElementById("students").innerHTML += "<br>Class: " + students[i].Class;
-    //     document.getElementById("students").innerHTML += "<br>Address: " + students[i].Address + "<br><br>";
-    // }
-
+    document.getElementById("students").innerHTML = studentCards;
 }
+
 
 export {
     task16
