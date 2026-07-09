@@ -1,5 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 20px;
+    padding: 20px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 119, 165);
+    background-color: rgb(218, 243, 255);
+    padding: 16px 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+#filter{
+    margin: 20px 10px 20px 40px;
+    padding: 12px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+}
+
+#search{
+    padding: 12px 20px;
+    background-color: #9301ee;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 #students{
-    background-color: rgb(234, 238, 239);
     padding: 16px;
     margin: 10px;
     border-radius: 10px;
@@ -7,5 +52,14 @@
     display: flex;
     flex-direction: row;
     column-gap: 20px;
-    grid-row: 3;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.student-card{
+    background-color: rgb(236, 238, 239);
+    padding: 16px;
+    border-radius: 10px;
+    width: 200px;
+    flex: 0 0 30%;
 }
